@@ -50,6 +50,36 @@ The project demonstrates the development of a complete mobile solution, includin
 ### Login & Chat
 
 <p align="center">
+  <img src="/cybernova-docs/assets/screenshots/login.jpeg" width="250"/>
+  <img src="/cybernova-docs/assets/screenshots/chatbot.jpeg" width="250"/>
+</p>
+
+### Service Requests
+
+<p align="center">
+  <img src="/cybernova-docs/assets/screenshots/requests.jpeg" width="250"/>
+  <img src="/cybernova-docs/assets/screenshots/request_inquiry.jpeg" width="250"/>
+</p>
+
+### Demo Management
+
+<p align="center">
+  <img src="/cybernova-docs/assets/screenshots/demo_scheduing.jpeg" width="250"/>
+  <img src="/cybernova-docs/assets/screenshots/bookings.jpeg" width="250"/>
+</p>
+
+### Profile & Events
+
+<p align="center">
+  <img src="/cybernova-docs/assets/screenshots/profile.jpeg" width="250"/>
+  <img src="/cybernova-docs/assets/screenshots/events.jpeg" width="250"/>
+</p>
+
+---
+
+### Login & Chat
+
+<p align="center">
   <img src="assets/screenshots/login.jpeg" width="250"/>
   <img src="assets/screenshots/chatbot.jpeg" width="250"/>
 </p>
