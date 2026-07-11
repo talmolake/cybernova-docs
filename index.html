@@ -1,13 +1,19 @@
-<h1>CyberNova</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CyberNova</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
 
-<h2>Overview</h2>
-<p>
-CyberNova is an AI-powered cybersecurity assistant...
-</p>
+<body>
+  <div id="content"></div>
 
-<h2>Features</h2>
-<ul>
-<li>AI Cybersecurity Assistant</li>
-<li>Service Requests</li>
-<li>Notifications</li>
-</ul>
+  <script>
+    fetch("README.md")
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById("content").innerHTML = marked.parse(text);
+      });
+  </script>
+</body>
+</html>
