@@ -45,6 +45,38 @@ The project demonstrates the development of a complete mobile solution, includin
 
 ---
 
+## Application Screenshots
+
+### Login & Chat
+
+<p align="center">
+  <img src="assets/screenshots/login.jpeg" width="250"/>
+  <img src="assets/screenshots/chatbot.jpeg" width="250"/>
+</p>
+
+### Service Requests
+
+<p align="center">
+  <img src="assets/screenshots/requests.jpeg" width="250"/>
+  <img src="assets/screenshots/request_inquiry.jpeg" width="250"/>
+</p>
+
+### Demo Management
+
+<p align="center">
+  <img src="assets/screenshots/demo_scheduing.jpeg" width="250"/>
+  <img src="assets/screenshots/bookings.jpeg" width="250"/>
+</p>
+
+### Profile & Events
+
+<p align="center">
+  <img src="assets/screenshots/profile.jpeg" width="250"/>
+  <img src="assets/screenshots/events.jpeg" width="250"/>
+</p>
+
+---
+
 ## Technology Stack
 
 ### Mobile Application
@@ -366,7 +398,7 @@ Authorization: Bearer YOUR_TOKEN_HERE
 |---------|-----|
 | `ECONNREFUSED` on login | Backend is not running. Run `npm run dev` in the backend folder. |
 | `invalid password` | Password must be 8+ chars, 1 uppercase, 1 special character. |
-| OpenAI 401 error | Check `OPENAI_API_KEY` in your `.env` file. |
+| OpenRouter 401 error | Check `OPENROUTER_API_KEY` in your `.env` file. |
 | Firebase init error | Check `FIREBASE_PRIVATE_KEY` — make sure the quotes are included and `\n` is not escaped. |
 | Android: network request failed | Use `10.0.2.2` not `localhost` in `api.js`. |
 | `relation "users" does not exist` | Run `schema.sql` again: `psql -U postgres -d cybernova -f backend/src/db/schema.sql` |
